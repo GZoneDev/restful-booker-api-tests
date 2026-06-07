@@ -1,0 +1,16 @@
+{
+  "name": "restful-booker-api-tests",
+  "version": "1.0.0",
+  "description": "API test suite for Restful Booker using Playwright",
+  "scripts": {
+    "test": "playwright test",
+    "test:report": "playwright test --reporter=html",
+    "test:ui": "npx playwright test --ui"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.0",
+    "@types/node": "^25.9.2",
+    "artillery": "^2.0.0",
+    "dotenv": "^17.4.2"
+  }
+}
